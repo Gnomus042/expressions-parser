@@ -20,7 +20,10 @@ function calculate() {
     $.post('/calc', {data: JSON.stringify(form)})
         .done(res => {
             $('#result-output').text(res.result.toFixed(2));
+
+            $('#tokens').empty();
             $('#tokens').append(res.tokens);
+            $('#rpn').empty();
             $('#rpn').append(res.rpn);
             let tab = res.tab.map(item => {
                 return {x: item[0], y: item[1]}

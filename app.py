@@ -17,7 +17,7 @@ def calc():
         func = Function(data['function'])
         res = func.calc(float(data['var']))
         tokens = ', '.join(list(map(str, func.tokens)))
-        rpn = ''.join(list(map(str, func.rpn)))
+        rpn = ' '.join(list(map(str, func.rpn)))
         xs = list(range(data['tab']['from'], data['tab']['to'], data['tab']['step']))
         ys = []
         for i in xs:

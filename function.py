@@ -35,7 +35,6 @@ class Function:
                 self.rpn.append(token)
             elif token.kind == 'function':
                 ops.append(token)
-                self.rpn.append(token)
             elif token.text == ',':
                 while len(ops) > 0:
                     if ops[-1].text == '(':
