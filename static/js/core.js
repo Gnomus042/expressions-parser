@@ -38,7 +38,7 @@ function calculate() {
             $('.result-block').css('visibility', 'visible');
         })
         .fail(err => {
-            new Noty({theme: 'mint', text: err.responseText, type: 'error'}).show();
+            new Noty({theme: 'mint', text: err.responseText, type: 'error', timeout: 5000}).show();
         })
 }
 
