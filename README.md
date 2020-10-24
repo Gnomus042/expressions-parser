@@ -11,8 +11,8 @@ This is a practical task #1 for computational theory and computer technologies c
 
 **Implemented operations, functions and constants:** sin, cos, tg, exp, abs, pow, sqrt, E, PI<br/>
 Shunting-yard algorithm used for parsing; implementation can be found in the ```function.py```. Basic unit tests for all 
-implemented operations can be found in the *tests* folder.
-
+implemented operations can be found in the *tests* folder. <br/>
+[Report (in Ukrainian)](https://docs.google.com/document/d/1b3GeII5cG68ZEdklmdvIK29GqxOXNdTsToS4OOSx8wY/edit)
 ## Demo
 
 ![](assets/demo.gif)
